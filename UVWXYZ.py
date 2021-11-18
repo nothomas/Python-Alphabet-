@@ -6,6 +6,7 @@ t = turtle.Turtle()
 t.penup()
 t.backward(600)
 t.pendown()
+t.pensize(5)
 
 #X
 t.fillcolor("red")
