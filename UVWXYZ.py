@@ -1,17 +1,14 @@
-python3
 import turtle
 s = turtle.getscreen()
 t = turtle.Turtle()
- #move cursor 
+
+
 t.penup()
-t.right(180)
-t.forward(600)
-t.forward(100)
-t.left(180)
+t.backward(600)
 t.pendown()
 
-#U
-t.fillcolor(“red”)
+#X
+t.fillcolor("red")
 t.begin_fill()
 t.right(90)
 t.forward(100)
@@ -29,11 +26,11 @@ t.end_fill()
 t.penup()
 t.forward(80)
 t.forward(100)
-
-#V
 t.right(70)
 t.pendown()
-t.fillcolor(“green”)
+
+#Y
+t.fillcolor("yellow")
 t.begin_fill()
 t.forward(140)
 t.left(140)
@@ -42,7 +39,10 @@ t.right(90)
 t.forward(20)
 t.right(90)
 t.forward(160)
+t.end_fill
 t.penup()
+t.fillcolor("yellow")
+t.begin_fill()
 t.right(180)
 t.forward(160)
 t.left(90)
@@ -64,11 +64,11 @@ t.penup()
 t.forward(160)
 t.right(70)
 t.forward(100)
-
-#W
 t.right(60)
 t.pendown()
-t.fillcolor(“yellow”)
+
+#W
+t.fillcolor("green")
 t.begin_fill()
 t.forward(130)
 t.left(120)
@@ -97,11 +97,11 @@ t.right(30)
 t.penup()
 t.end_fill()
 t.forward(300)
-
-#X
 t.right(60)
 t.pendown()
-t.fillcolor(“red”)
+
+#X
+t.fillcolor("blue")
 t.begin_fill()
 t.forward(80)
 t.right(60)
@@ -132,10 +132,10 @@ t.penup()
 t.end_fill()
 t.left(60)
 t.forward(200)
+t.pendown()
 
 #Y
-t.pendown()
-t.fillcolor(“red”)
+t.fillcolor("orange")
 t.begin_fill()
 t.right(60)
 t.forward(80)
@@ -161,10 +161,10 @@ t.right(180)
 t.forward(20)
 t.right(30)
 t.forward(190)
+t.pendown()
 
 #Z
-t.pendown()
-t.fillcolor(“red”)
+t.fillcolor("red")
 t.begin_fill()
 t.right(90)
 t.forward(25)
